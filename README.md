@@ -13,6 +13,9 @@ uses this API to resolve class parameters using the matchers configured in
 Foreman.  It effectively works in the same way as the Hiera integration in
 Puppet 3.
 
+Get the foreman_data_binding module from [Puppet Forge](http://forge.puppetlabs.com/domcleal/foreman_data_binding)
+or [GitHub](https://github.com/domcleal/foreman_data_binding).
+
 # Installation:
 
 Include in your `~foreman/bundler.d/foreman_param_lookup.rb`
@@ -30,6 +33,8 @@ As Foreman user:
 To upgrade to newest version of the plugin:
 
     bundle update foreman_param_lookup
+
+Don't forget to install the Puppet module to use that functionality.
 
 # Usage
 
