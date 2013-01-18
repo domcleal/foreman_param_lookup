@@ -13,24 +13,27 @@ Gem::Specification.new do |s|
   s.description = "Exposes smart class parameters lookups as an API"
   s.email = "dcleal@redhat.com"
   s.extra_rdoc_files = [
+    "LICENSE",
     "README.md"
   ]
   s.files = [
     "Gemfile",
-    "Gemfile.lock",
+    "LICENSE",
     "README.md",
     "Rakefile",
+    "VERSION",
     "app/controllers/foreman_param_lookup/classifications_controller.rb",
-    "app/models/foreman_param_lookup/any_classification_extensions.rb",
+    "app/models/foreman_param_lookup/any_classification.rb",
     "config/routes.rb",
-    "lib/engine.rb",
-    "lib/foreman_param_lookup.rb"
+    "foreman_param_lookup.gemspec",
+    "lib/foreman_param_lookup.rb",
+    "lib/foreman_param_lookup/engine.rb"
   ]
   s.homepage = "http://github.com/domcleal/foreman_param_lookup"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
-  s.summary = "Smart class parameters plugin for Foreman"
+  s.summary = "Exposes smart class parameters lookups as an API"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
