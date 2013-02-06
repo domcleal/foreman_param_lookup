@@ -15,7 +15,7 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "foreman_param_lookup"
   gem.homepage = "http://github.com/domcleal/foreman_param_lookup"
-  gem.license = "MIT"
+  gem.license = "GPL-3"
   gem.summary = %Q{Exposes smart class parameters lookups as an API}
   gem.description = %Q{Exposes smart class parameters lookups as an API}
   gem.email = "dcleal@redhat.com"

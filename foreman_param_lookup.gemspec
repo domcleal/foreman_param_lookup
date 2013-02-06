@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
     "lib/foreman_param_lookup/engine.rb"
   ]
   s.homepage = "http://github.com/domcleal/foreman_param_lookup"
-  s.licenses = ["MIT"]
+  s.licenses = ["GPL-3"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
   s.summary = "Exposes smart class parameters lookups as an API"
