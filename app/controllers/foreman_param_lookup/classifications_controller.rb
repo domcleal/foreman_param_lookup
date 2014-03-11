@@ -14,7 +14,7 @@ module ForemanParamLookup
         head :status => 404
         return
       end
-      render :text => AnyClassification.new(
+      render :text => ForemanParamLookup::AnyClassification.new(
         :host => host, :classes => [ppclass].flatten
       ).enc.to_yaml
     end

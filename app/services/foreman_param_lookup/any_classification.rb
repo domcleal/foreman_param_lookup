@@ -1,4 +1,4 @@
-class AnyClassification < Classification
+class ForemanParamLookup::AnyClassification < Classification::ClassParam
   def initialize args = { }
     super args
     @classes = args[:classes]
