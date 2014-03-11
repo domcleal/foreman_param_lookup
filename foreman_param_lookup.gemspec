@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "foreman_param_lookup"
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dominic Cleal"]
-  s.date = "2013-01-18"
+  s.date = "2014-03-11"
   s.description = "Exposes smart class parameters lookups as an API"
   s.email = "dcleal@redhat.com"
   s.extra_rdoc_files = [
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "app/controllers/foreman_param_lookup/classifications_controller.rb",
-    "app/models/foreman_param_lookup/any_classification.rb",
+    "app/services/foreman_param_lookup/any_classification.rb",
     "config/routes.rb",
     "foreman_param_lookup.gemspec",
     "lib/foreman_param_lookup.rb",
@@ -32,11 +32,11 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/domcleal/foreman_param_lookup"
   s.licenses = ["GPL-3"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "2.0.6"
   s.summary = "Exposes smart class parameters lookups as an API"
 
   if s.respond_to? :specification_version then
-    s.specification_version = 3
+    s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<bundler>, [">= 0"])
