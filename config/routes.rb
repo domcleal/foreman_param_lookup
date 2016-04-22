@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  match 'param_lookup', :to => 'foreman_param_lookup/classifications#lookup'
+  get 'param_lookup', :controller => 'foreman_param_lookup/classifications', :action => 'lookup'
 end
