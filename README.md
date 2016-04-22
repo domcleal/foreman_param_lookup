@@ -3,6 +3,9 @@
 Foreman engine plugin that exposes smart class parameter lookups for any host
 and class.
 
+*Warning:* this was written as a proof of concept. It has no authentication and
+should not be used in a production environment.
+
 The ENC YAML output that Foreman generates only provides parameters for classes
 that are included on the node through the host or hostgroup records.  However
 any smart class parameter can be evaluated for a host, so this exposes an API
